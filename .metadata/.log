@@ -8,3 +8,15 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 
 !ENTRY com.instantiations.eclipse 1 0 2017-03-07 16:02:39.470
 !MESSAGE StartupPlugin: could not add workbench property change listener (1) ... compatibility layer might not be installed.
+
+!ENTRY com.instantiations.eclipse 1 0 2017-03-07 16:08:43.511
+!MESSAGE cannot support aboutToShutdown event - 2
+
+!ENTRY com.instantiations.common.core 2 0 2017-03-07 16:09:04.524
+!MESSAGE This version of CodePro Analytix and PlusPak was compiled for Eclipse 3.7 but is running on Eclipse 3.12.
+This version of CodePro AnalytiX was compiled for Eclipse 3.7 but is running on Eclipse 3.12.
+This version of EclipsePro Audit was compiled for Eclipse 3.7 but is running on Eclipse 3.12.
+This version of EclipsePro Test was compiled for Eclipse 3.7 but is running on Eclipse 3.12.
+This version of Code Coverage was compiled for Eclipse 3.7 but is running on Eclipse 3.12.
+This version of Shared was compiled for Eclipse 3.7 but is running on Eclipse 3.12.
+
