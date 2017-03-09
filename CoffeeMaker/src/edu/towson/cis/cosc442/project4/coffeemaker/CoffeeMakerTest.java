@@ -7,12 +7,12 @@ import junit.framework.TestCase;
  */
 public class CoffeeMakerTest extends TestCase {
 	private CoffeeMaker cm;
-	private Inventory i;
+	//private Inventory i;
 	private Recipe r1;
 
 	public void setUp() {
 		cm = new CoffeeMaker();
-		i = cm.checkInventory();
+		//i = cm.checkInventory();
 
 		r1 = new Recipe();
 		r1.setName("Coffee");

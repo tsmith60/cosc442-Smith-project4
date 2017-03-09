@@ -1,2 +1,4 @@
 1488921379721	Extract method 'canAddRecipe'
 1488921500467	Extract method 'doesRecipeExist'
+1489094794936	Extract constant 'PLEASE_ENTER_THE_RECIPE_NAME'
+1489094812061	Extract constant 'PLEASE_ENTER_THE_RECIPE_PRICE_$'

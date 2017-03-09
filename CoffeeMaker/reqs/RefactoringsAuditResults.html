@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>CodePro Code Audit for edu.towson.cis.cosc442.project4.coffeemaker</title>
+
+	<meta name="GENERATOR" content="CodePro Server"/>
+
+	<style type="text/css">
+	.highSeverity { background-color: #ff9999; }
+	.mediumSeverity { }
+	.lowSeverity { }
+	</style>
+
+	<style type="text/css">
+	body {font: 70% verdana,arial,helvetica; color: #000000}
+p  {margin-top:  3px; line-height: 1.5em}
+h1 {margin-top:  0px; margin-bottom: 6px; font: bold 150% verdana,arial,helvetica}
+h2 {margin-top: 12px; margin-bottom: 6px; font: bold 125% verdana,arial,helvetica}
+h3 {margin-top: 12px; margin-bottom: 6px; font: bold 100% verdana,arial,helvetica}
+h4 {margin-top: 12px; margin-bottom: 6px; font: bold 100% verdana,arial,helvetica}
+.rounded_page{display:block}
+.rounded_page *{display:block; height:1px; overflow:hidden; font-size:.01em; background:#7799DD}
+.rounded_page1{ margin-left:3px; margin-right:3px; padding-left:1px; padding-right:1px; border-left:1px solid #c4d3ef; border-right:1px solid #c4d3ef; background:#99b2e5}
+.rounded_page2{ margin-left:1px; margin-right:1px; padding-right:1px; padding-left:1px; border-left:1px solid #f1f4fa; border-right:1px solid #f1f4fa; background:#90ace3}
+.rounded_page3{ margin-left:1px; margin-right:1px; border-left:1px solid #90ace3; border-right:1px solid #90ace3;}
+.rounded_page4{ border-left:1px solid #c4d3ef; border-right:1px solid #c4d3ef}
+.rounded_page5{ border-left:1px solid #99b2e5; border-right:1px solid #99b2e5}
+.rounded_pagefg{ background:#7799DD}
+.rounded_section{display:block}
+.rounded_section *{display:block; height:1px; overflow:hidden; font-size:.01em; background:#C3D9FF}
+.rounded_section1{ margin-left:3px; margin-right:3px; padding-left:1px; padding-right:1px; border-left:1px solid #e5eefe; border-right:1px solid #e5eefe; background:#d2e2fe}
+.rounded_section2{ margin-left:1px; margin-right:1px; padding-right:1px; padding-left:1px; border-left:1px solid #f9fbfe; border-right:1px solid #f9fbfe; background:#cee0fe}
+.rounded_section3{ margin-left:1px; margin-right:1px; border-left:1px solid #cee0fe; border-right:1px solid #cee0fe;}
+.rounded_section4{ border-left:1px solid #e5eefe; border-right:1px solid #e5eefe}
+.rounded_section5{ border-left:1px solid #d2e2fe; border-right:1px solid #d2e2fe}
+.rounded_sectionfg{ background:#C3D9FF}
+.page-title { color: #FFFFFE; font-weight: bold; font-size: large; margin: 0px 0px 0px 8px; }
+.page-title-details { color: #FFFFFE; font-weight: bold; margin-right: 8px; margin-left: 8px; }
+.page-footer { color: #FFFFFE; font-weight: bold; margin-left: 8px}
+.page-footer-details { color: #FFFFFE; font-weight: bold; margin-right: 8px; margin-left: 8px; }
+.majorsection-title { color: #FFFFFE; font-weight: bold; margin: 0px 0px 0px 8px; }
+.majorsection-title-details { color: #FFFFFE; font-weight: bold; margin-right: 8px; margin-left: 8px; }
+.majorsection-contents { margin: 0px 0px 15px 16px; }
+.section-title { color: #1F4F8F; font-weight: bold; margin: 0px 0px 0px 6px; }
+.section-title-details { font-weight: bold; margin-left: 6px; margin-right: 6px; }
+.section-contents { margin: 6px 0px 15px 14px; }
+.bodyTable { border: 0px solid #777777; width:100%; border-collapse: collapse; }
+.bodyTable th { border: 1px solid #777777; white-space:nowrap; background-color: #EEEEEE; padding-left: 3px; padding-right: 3px; }
+.bodyTable td { border: 1px solid #777777; vertical-align: top; padding-left: 3px; padding-right: 3px; }
+td[class=emptyborder] { border: 0px solid #777777; padding: 3px 0px 3px 0px; }
+
+	</style>
+
+</head>
+
+<body>
+
+<div>
+		<b class="rounded_page"><b class="rounded_page1"><b></b></b><b class="rounded_page2"><b></b></b><b class="rounded_page3"></b><b class="rounded_page4"></b><b class="rounded_page5"></b></b>
+		<div class="rounded_pagefg">
+			<h2 class="page-title"><a name="top">CodePro Code Audit for edu.towson.cis.cosc442.project4.coffeemaker</a></h2>
+		</div>
+		<b class="rounded_page"><b class="rounded_page5"></b><b class="rounded_page4"></b><b class="rounded_page3"></b><b class="rounded_page2"><b></b></b><b class="rounded_page1"><b></b></b></b>
+	</div>
+	<div class="majorsection-contents">
+		<p>This document contains the results of auditing edu.towson.cis.cosc442.project4.coffeemaker at 3/9/17 4:49 PM, using the audit rule set Potential Errors and Refactorings.</p>
+	</div>
+	<table width="100%" border="0">
+		<tr>
+			<td valign="top" width="68%">
+				<div>
+					<b class="rounded_page"><b class="rounded_page1"><b></b></b><b class="rounded_page2"><b></b></b><b class="rounded_page3"></b><b class="rounded_page4"></b><b class="rounded_page5"></b></b>
+					<div class="rounded_pagefg">
+						<h3 class="majorsection-title">Violations by Audit Rule</h3>
+					</div>
+					<b class="rounded_page"><b class="rounded_page5"></b><b class="rounded_page4"></b><b class="rounded_page3"></b><b class="rounded_page2"><b></b></b><b class="rounded_page1"><b></b></b></b>
+				</div>
+				<div class="section-contents">
+					<table>
+					<tr>
+					<td valign="top"><a href="#Block_Depth">Block Depth</a>
+					</td></tr>
+					<tr>
+					<td valign="top"><a href="#Check_Type_In_Equals">Check Type In Equals</a>
+					</td></tr>
+					<tr>
+					<td valign="top"><a href="#Dangling_Else">Dangling Else</a>
+					</td></tr>
+					<tr>
+					<td valign="top"><a href="#Non-blank_Final_Instance_Field">Non-blank Final Instance Field</a>
+					</td></tr>
+					<tr>
+					<td valign="top"><a href="#Obey_General_Contract_of_Equals">Obey General Contract of Equals</a>
+					</td></tr>
+					<tr>
+					<td valign="top"><a href="#Overloaded_Methods">Overloaded Methods</a>
+					</td></tr>
+					<tr>
+					<td valign="top"><a href="#Questionable_Assignment">Questionable Assignment</a>
+					</td></tr>
+					<tr>
+					<td valign="top"><a href="#Variable_Should_Be_Final">Variable Should Be Final</a>
+					</td></tr>
+					</table>
+				</div>
+			</td>
+			<td width="2%">
+				 </td>
+			<td valign="top" width="30%">
+				<div>
+					<b class="rounded_page"><b class="rounded_page1"><b></b></b><b class="rounded_page2"><b></b></b><b class="rounded_page3"></b><b class="rounded_page4"></b><b class="rounded_page5"></b></b>
+					<div class="rounded_pagefg">
+						<h3 class="majorsection-title">Violation Counts by Severity</h3>
+					</div>
+					<b class="rounded_page"><b class="rounded_page5"></b><b class="rounded_page4"></b><b class="rounded_page3"></b><b class="rounded_page2"><b></b></b><b class="rounded_page1"><b></b></b></b>
+				</div>
+				<div class="section-contents">
+					<table class="bodyTable">
+						<tr><th>Violation Severity</th><th>Violation Count</th></tr>
+						<tr class="a"><td>High</td><td align="right">0</td></tr>
+						<tr class="b"><td>Medium</td><td align="right">30</td></tr>
+						<tr class="a"><td>Low</td><td align="right">0</td></tr>
+					</table>
+				</div>
+			</td>
+		</tr>
+	</table>
+	<div class="section-contents">
+		<table class="bodyTable">
+			<tr><td class="emptyborder" colspan="5">&nbsp;
+			<div>
+				<b class="rounded_section"><b class="rounded_section1"><b></b></b><b class="rounded_section2"><b></b></b><b class="rounded_section3"></b><b class="rounded_section4"></b><b class="rounded_section5"></b></b>
+				<div class="rounded_sectionfg">
+					<h4 class="section-title"><a name="Block_Depth">Block Depth (1)</a></h4>
+				</div>
+				<b class="rounded_section"><b class="rounded_section5"></b><b class="rounded_section4"></b><b class="rounded_section3"></b><b class="rounded_section2"><b></b></b><b class="rounded_section1"><b></b></b></b>
+			</div>
+			</td></tr>
+			<tr><td class="emptyborder" colspan="5"></td></tr>
+	<tr class="a">
+			<th>Violation</th>
+<th>Recommendation</th>
+<th>Severity</th>
+<th>Resource</th>
+<th>Line</th>
+	</tr>
+	<tr class="mediumSeverity a"><td><a href="RefactoringsAuditResults_files/CoffeeMaker.html#line95">Method has 4 levels of nested blocks</a></td>
+<td>
+Reduce the complexity of the method by extracting some of the code into a separate method.		</td>
+<td>Medium</td>
+<td>
+CoffeeMaker.java</td>
+<td>
+95</td>
+</tr>
+			<tr><td class="emptyborder" colspan="5"> </td></tr>
+			<tr><td class="emptyborder" colspan="5">&nbsp;
+			<div>
+				<b class="rounded_section"><b class="rounded_section1"><b></b></b><b class="rounded_section2"><b></b></b><b class="rounded_section3"></b><b class="rounded_section4"></b><b class="rounded_section5"></b></b>
+				<div class="rounded_sectionfg">
+					<h4 class="section-title"><a name="Check_Type_In_Equals">Check Type In Equals (1)</a></h4>
+				</div>
+				<b class="rounded_section"><b class="rounded_section5"></b><b class="rounded_section4"></b><b class="rounded_section3"></b><b class="rounded_section2"><b></b></b><b class="rounded_section1"><b></b></b></b>
+			</div>
+			</td></tr>
+			<tr><td class="emptyborder" colspan="5"></td></tr>
+	<tr class="a">
+			<th>Violation</th>
+<th>Recommendation</th>
+<th>Severity</th>
+<th>Resource</th>
+<th>Line</th>
+	</tr>
+	<tr class="mediumSeverity a"><td><a href="RefactoringsAuditResults_files/Recipe.html#line130">equals() does not use instanceof</a></td>
+<td>
+Use instanceof to check the type of the parameter.		</td>
+<td>Medium</td>
+<td>
+Recipe.java</td>
+<td>
+130</td>
+</tr>
+			<tr><td class="emptyborder" colspan="5"> </td></tr>
+			<tr><td class="emptyborder" colspan="5">&nbsp;
+			<div>
+				<b class="rounded_section"><b class="rounded_section1"><b></b></b><b class="rounded_section2"><b></b></b><b class="rounded_section3"></b><b class="rounded_section4"></b><b class="rounded_section5"></b></b>
+				<div class="rounded_sectionfg">
+					<h4 class="section-title"><a name="Dangling_Else">Dangling Else (3)</a></h4>
+				</div>
+				<b class="rounded_section"><b class="rounded_section5"></b><b class="rounded_section4"></b><b class="rounded_section3"></b><b class="rounded_section2"><b></b></b><b class="rounded_section1"><b></b></b></b>
+			</div>
+			</td></tr>
+			<tr><td class="emptyborder" colspan="5"></td></tr>
+	<tr class="a">
+			<th>Violation</th>
+<th>Recommendation</th>
+<th>Severity</th>
+<th>Resource</th>
+<th>Line</th>
+	</tr>
+	<tr class="mediumSeverity a"><td><a href="RefactoringsAuditResults_files/Main.html#line88">Dangling else clause</a></td>
+<td>
+Enclose the then clause in a block.		</td>
+<td>Medium</td>
+<td>
+Main.java</td>
+<td>
+88</td>
+</tr>
+	<tr class="mediumSeverity b"><td><a href="RefactoringsAuditResults_files/Main.html#line107">Dangling else clause</a></td>
+<td>
+Enclose the then clause in a block.		</td>
+<td>Medium</td>
+<td>
+Main.java</td>
+<td>
+107</td>
+</tr>
+	<tr class="mediumSeverity a"><td><a href="RefactoringsAuditResults_files/Main.html#line174">Dangling else clause</a></td>
+<td>
+Enclose the then clause in a block.		</td>
+<td>Medium</td>
+<td>
+Main.java</td>
+<td>
+174</td>
+</tr>
+			<tr><td class="emptyborder" colspan="5"> </td></tr>
+			<tr><td class="emptyborder" colspan="5">&nbsp;
+			<div>
+				<b class="rounded_section"><b class="rounded_section1"><b></b></b><b class="rounded_section2"><b></b></b><b class="rounded_section3"></b><b class="rounded_section4"></b><b class="rounded_section5"></b></b>
+				<div class="rounded_sectionfg">
+					<h4 class="section-title"><a name="Non-blank_Final_Instance_Field">Non-blank Final Instance Field (1)</a></h4>
+				</div>
+				<b class="rounded_section"><b class="rounded_section5"></b><b class="rounded_section4"></b><b class="rounded_section3"></b><b class="rounded_section2"><b></b></b><b class="rounded_section1"><b></b></b></b>
+			</div>
+			</td></tr>
+			<tr><td class="emptyborder" colspan="5"></td></tr>
+	<tr class="a">
+			<th>Violation</th>
+<th>Recommendation</th>
+<th>Severity</th>
+<th>Resource</th>
+<th>Line</th>
+	</tr>
+	<tr class="mediumSeverity a"><td><a href="RefactoringsAuditResults_files/CoffeeMaker.html#line10">Non-blank final instance field: NUM_RECIPES</a></td>
+<td>
+Make the field(s) static.		</td>
+<td>Medium</td>
+<td>
+CoffeeMaker.java</td>
+<td>
+10</td>
+</tr>
+			<tr><td class="emptyborder" colspan="5"> </td></tr>
+			<tr><td class="emptyborder" colspan="5">&nbsp;
+			<div>
+				<b class="rounded_section"><b class="rounded_section1"><b></b></b><b class="rounded_section2"><b></b></b><b class="rounded_section3"></b><b class="rounded_section4"></b><b class="rounded_section5"></b></b>
+				<div class="rounded_sectionfg">
+					<h4 class="section-title"><a name="Obey_General_Contract_of_Equals">Obey General Contract of Equals (1)</a></h4>
+				</div>
+				<b class="rounded_section"><b class="rounded_section5"></b><b class="rounded_section4"></b><b class="rounded_section3"></b><b class="rounded_section2"><b></b></b><b class="rounded_section1"><b></b></b></b>
+			</div>
+			</td></tr>
+			<tr><td class="emptyborder" colspan="5"></td></tr>
+	<tr class="a">
+			<th>Violation</th>
+<th>Recommendation</th>
+<th>Severity</th>
+<th>Resource</th>
+<th>Line</th>
+	</tr>
+	<tr class="mediumSeverity a"><td><a href="RefactoringsAuditResults_files/Recipe.html#line130">Wrong parameter type</a></td>
+<td>
+Change the name of the method.		</td>
+<td>Medium</td>
+<td>
+Recipe.java</td>
+<td>
+130</td>
+</tr>
+			<tr><td class="emptyborder" colspan="5"> </td></tr>
+			<tr><td class="emptyborder" colspan="5">&nbsp;
+			<div>
+				<b class="rounded_section"><b class="rounded_section1"><b></b></b><b class="rounded_section2"><b></b></b><b class="rounded_section3"></b><b class="rounded_section4"></b><b class="rounded_section5"></b></b>
+				<div class="rounded_sectionfg">
+					<h4 class="section-title"><a name="Overloaded_Methods">Overloaded Methods (1)</a></h4>
+				</div>
+				<b class="rounded_section"><b class="rounded_section5"></b><b class="rounded_section4"></b><b class="rounded_section3"></b><b class="rounded_section2"><b></b></b><b class="rounded_section1"><b></b></b></b>
+			</div>
+			</td></tr>
+			<tr><td class="emptyborder" colspan="5"></td></tr>
+	<tr class="a">
+			<th>Violation</th>
+<th>Recommendation</th>
+<th>Severity</th>
+<th>Resource</th>
+<th>Line</th>
+	</tr>
+	<tr class="mediumSeverity a"><td><a href="RefactoringsAuditResults_files/Recipe.html#line130">The method equals is overloads a method inherited from Recipe</a></td>
+<td>
+Either rename the methods so that they no longer have the same name, or change the number of parameters.		</td>
+<td>Medium</td>
+<td>
+Recipe.java</td>
+<td>
+130</td>
+</tr>
+			<tr><td class="emptyborder" colspan="5"> </td></tr>
+			<tr><td class="emptyborder" colspan="5">&nbsp;
+			<div>
+				<b class="rounded_section"><b class="rounded_section1"><b></b></b><b class="rounded_section2"><b></b></b><b class="rounded_section3"></b><b class="rounded_section4"></b><b class="rounded_section5"></b></b>
+				<div class="rounded_sectionfg">
+					<h4 class="section-title"><a name="Questionable_Assignment">Questionable Assignment (3)</a></h4>
+				</div>
+				<b class="rounded_section"><b class="rounded_section5"></b><b class="rounded_section4"></b><b class="rounded_section3"></b><b class="rounded_section2"><b></b></b><b class="rounded_section1"><b></b></b></b>
+			</div>
+			</td></tr>
+			<tr><td class="emptyborder" colspan="5"></td></tr>
+	<tr class="a">
+			<th>Violation</th>
+<th>Recommendation</th>
+<th>Severity</th>
+<th>Resource</th>
+<th>Line</th>
+	</tr>
+	<tr class="mediumSeverity a"><td><a href="RefactoringsAuditResults_files/CoffeeMaker.html#line50">Questionable method parameter assignment: canAddRecipe = false</a></td>
+<td>
+Check the logic of the assignment statement.		</td>
+<td>Medium</td>
+<td>
+CoffeeMaker.java</td>
+<td>
+50</td>
+</tr>
+	<tr class="mediumSeverity b"><td><a href="RefactoringsAuditResults_files/CoffeeMaker.html#line62">Questionable method parameter assignment: canAddRecipe = true</a></td>
+<td>
+Check the logic of the assignment statement.		</td>
+<td>Medium</td>
+<td>
+CoffeeMaker.java</td>
+<td>
+62</td>
+</tr>
+	<tr class="mediumSeverity a"><td><a href="RefactoringsAuditResults_files/CoffeeMaker.html#line70">Questionable method parameter assignment: canAddRecipe = false</a></td>
+<td>
+Check the logic of the assignment statement.		</td>
+<td>Medium</td>
+<td>
+CoffeeMaker.java</td>
+<td>
+70</td>
+</tr>
+			<tr><td class="emptyborder" colspan="5"> </td></tr>
+			<tr><td class="emptyborder" colspan="5">&nbsp;
+			<div>
+				<b class="rounded_section"><b class="rounded_section1"><b></b></b><b class="rounded_section2"><b></b></b><b class="rounded_section3"></b><b class="rounded_section4"></b><b class="rounded_section5"></b></b>
+				<div class="rounded_sectionfg">
+					<h4 class="section-title"><a name="Variable_Should_Be_Final">Variable Should Be Final (19)</a></h4>
+				</div>
+				<b class="rounded_section"><b class="rounded_section5"></b><b class="rounded_section4"></b><b class="rounded_section3"></b><b class="rounded_section2"><b></b></b><b class="rounded_section1"><b></b></b></b>
+			</div>
+			</td></tr>
+			<tr><td class="emptyborder" colspan="5"></td></tr>
+	<tr class="a">
+			<th>Violation</th>
+<th>Recommendation</th>
+<th>Severity</th>
+<th>Resource</th>
+<th>Line</th>
+	</tr>
+	<tr class="mediumSeverity a"><td><a href="RefactoringsAuditResults_files/CoffeeMaker.html#line8">Private field should be final: recipeArray</a></td>
+<td>
+Declare the &quot;recipeArray&quot; field final.		</td>
+<td>Medium</td>
+<td>
+CoffeeMaker.java</td>
+<td>
+8</td>
+</tr>
+	<tr class="mediumSeverity b"><td><a href="RefactoringsAuditResults_files/CoffeeMaker.html#line12">Private field should be final: recipeFull</a></td>
+<td>
+Declare the &quot;recipeFull&quot; field final.		</td>
+<td>Medium</td>
+<td>
+CoffeeMaker.java</td>
+<td>
+12</td>
+</tr>
+	<tr class="mediumSeverity a"><td><a href="RefactoringsAuditResults_files/CoffeeMaker.html#line14">Private field should be final: inventory</a></td>
+<td>
+Declare the &quot;inventory&quot; field final.		</td>
+<td>Medium</td>
+<td>
+CoffeeMaker.java</td>
+<td>
+14</td>
+</tr>
+	<tr class="mediumSeverity b"><td><a href="RefactoringsAuditResults_files/Main.html#line117">Local variable should be final: recipeToEditString</a></td>
+<td>
+Declare the &quot;recipeToEditString&quot; variable final.		</td>
+<td>Medium</td>
+<td>
+Main.java</td>
+<td>
+117</td>
+</tr>
+	<tr class="mediumSeverity a"><td><a href="RefactoringsAuditResults_files/Main.html#line181">Local variable should be final: coffeeString</a></td>
+<td>
+Declare the &quot;coffeeString&quot; variable final.		</td>
+<td>Medium</td>
+<td>
+Main.java</td>
+<td>
+181</td>
+</tr>
+	<tr class="mediumSeverity b"><td><a href="RefactoringsAuditResults_files/Main.html#line188">Local variable should be final: milkString</a></td>
+<td>
+Declare the &quot;milkString&quot; variable final.		</td>
+<td>Medium</td>
+<td>
+Main.java</td>
+<td>
+188</td>
+</tr>
+	<tr class="mediumSeverity a"><td><a href="RefactoringsAuditResults_files/Main.html#line195">Local variable should be final: sugarString</a></td>
+<td>
+Declare the &quot;sugarString&quot; variable final.		</td>
+<td>Medium</td>
+<td>
+Main.java</td>
+<td>
+195</td>
+</tr>
+	<tr class="mediumSeverity b"><td><a href="RefactoringsAuditResults_files/Main.html#line196">Local variable should be final: amtSugar</a></td>
+<td>
+Declare the &quot;amtSugar&quot; variable final.		</td>
+<td>Medium</td>
+<td>
+Main.java</td>
+<td>
+196</td>
+</tr>
+	<tr class="mediumSeverity a"><td><a href="RefactoringsAuditResults_files/Main.html#line202">Local variable should be final: chocolateString</a></td>
+<td>
+Declare the &quot;chocolateString&quot; variable final.		</td>
+<td>Medium</td>
+<td>
+Main.java</td>
+<td>
+202</td>
+</tr>
+	<tr class="mediumSeverity b"><td><a href="RefactoringsAuditResults_files/Main.html#line203">Local variable should be final: amtChocolate</a></td>
+<td>
+Declare the &quot;amtChocolate&quot; variable final.		</td>
+<td>Medium</td>
+<td>
+Main.java</td>
+<td>
+203</td>
+</tr>
+	<tr class="mediumSeverity a"><td><a href="RefactoringsAuditResults_files/Main.html#line213">Local variable should be final: inventory</a></td>
+<td>
+Declare the &quot;inventory&quot; variable final.		</td>
+<td>Medium</td>
+<td>
+Main.java</td>
+<td>
+213</td>
+</tr>
+	<tr class="mediumSeverity b"><td><a href="RefactoringsAuditResults_files/Main.html#line219">Local variable should be final: recipes</a></td>
+<td>
+Declare the &quot;recipes&quot; variable final.		</td>
+<td>Medium</td>
+<td>
+Main.java</td>
+<td>
+219</td>
+</tr>
+	<tr class="mediumSeverity a"><td><a href="RefactoringsAuditResults_files/Main.html#line223">Local variable should be final: recipeToPurchaseString</a></td>
+<td>
+Declare the &quot;recipeToPurchaseString&quot; variable final.		</td>
+<td>Medium</td>
+<td>
+Main.java</td>
+<td>
+223</td>
+</tr>
+	<tr class="mediumSeverity b"><td><a href="RefactoringsAuditResults_files/Main.html#line224">Local variable should be final: recipeToPurchase</a></td>
+<td>
+Declare the &quot;recipeToPurchase&quot; variable final.		</td>
+<td>Medium</td>
+<td>
+Main.java</td>
+<td>
+224</td>
+</tr>
+	<tr class="mediumSeverity a"><td><a href="RefactoringsAuditResults_files/Main.html#line229">Local variable should be final: amountPaid</a></td>
+<td>
+Declare the &quot;amountPaid&quot; variable final.		</td>
+<td>Medium</td>
+<td>
+Main.java</td>
+<td>
+229</td>
+</tr>
+	<tr class="mediumSeverity b"><td><a href="RefactoringsAuditResults_files/Main.html#line230">Local variable should be final: amountToPay</a></td>
+<td>
+Declare the &quot;amountToPay&quot; variable final.		</td>
+<td>Medium</td>
+<td>
+Main.java</td>
+<td>
+230</td>
+</tr>
+	<tr class="mediumSeverity a"><td><a href="RefactoringsAuditResults_files/Main.html#line235">Local variable should be final: recipe</a></td>
+<td>
+Declare the &quot;recipe&quot; variable final.		</td>
+<td>Medium</td>
+<td>
+Main.java</td>
+<td>
+235</td>
+</tr>
+	<tr class="mediumSeverity b"><td><a href="RefactoringsAuditResults_files/Main.html#line236">Local variable should be final: change</a></td>
+<td>
+Declare the &quot;change&quot; variable final.		</td>
+<td>Medium</td>
+<td>
+Main.java</td>
+<td>
+236</td>
+</tr>
+	<tr class="mediumSeverity a"><td><a href="RefactoringsAuditResults_files/Main.html#line249">Local variable should be final: br</a></td>
+<td>
+Declare the &quot;br&quot; variable final.		</td>
+<td>Medium</td>
+<td>
+Main.java</td>
+<td>
+249</td>
+</tr>
+		</table>
+	</div>
+	<div>
+		<b class="rounded_page"><b class="rounded_page1"><b></b></b><b class="rounded_page2"><b></b></b><b class="rounded_page3"></b><b class="rounded_page4"></b><b class="rounded_page5"></b></b>
+		<div class="rounded_pagefg">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" ><tr><td valign="middle">
+			<span class="page-footer">Generated at 3/9/17 4:49 PM</span>
+			</td><td align="right" valign="middle">
+			<span class="page-footer-details">Powered by <span title="0.0.0, UNKNOWN">CodePro Server</span></span></td></tr></table>
+		</div>
+		<b class="rounded_page"><b class="rounded_page5"></b><b class="rounded_page4"></b><b class="rounded_page3"></b><b class="rounded_page2"><b></b></b><b class="rounded_page1"><b></b></b></b>
+	</div>
+
+</body>
+
+</html>
