@@ -162,3 +162,78 @@ This version of Shared was compiled for Eclipse 3.7 but is running on Eclipse 3.
 
 !ENTRY com.instantiations.eclipse 1 0 2017-03-09 16:10:55.900
 !MESSAGE WIN32_GET_KEY_STATE not found
+
+!ENTRY com.instantiations.eclipse 1 0 2017-03-09 17:40:29.412
+!MESSAGE StartupPlugin: could not remove workbench property change listener (1) ... workbench might already be shut down.
+!SESSION 2017-03-10 17:25:38.477 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/tedsmithiii/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/tedsmithiii/.eclipse_keyring
+
+!ENTRY com.instantiations.eclipse 1 0 2017-03-10 17:25:54.007
+!MESSAGE StartupPlugin: could not add workbench property change listener (1) ... compatibility layer might not be installed.
+
+!ENTRY com.instantiations.eclipse 1 0 2017-03-10 17:25:57.729
+!MESSAGE cannot support aboutToShutdown event - 2
+
+!ENTRY com.instantiations.common.core 2 0 2017-03-10 17:26:36.160
+!MESSAGE This version of CodePro Analytix and PlusPak was compiled for Eclipse 3.7 but is running on Eclipse 3.12.
+This version of CodePro AnalytiX was compiled for Eclipse 3.7 but is running on Eclipse 3.12.
+This version of EclipsePro Audit was compiled for Eclipse 3.7 but is running on Eclipse 3.12.
+This version of EclipsePro Test was compiled for Eclipse 3.7 but is running on Eclipse 3.12.
+This version of Code Coverage was compiled for Eclipse 3.7 but is running on Eclipse 3.12.
+This version of Shared was compiled for Eclipse 3.7 but is running on Eclipse 3.12.
+
+
+!ENTRY com.instantiations.eclipse 1 0 2017-03-10 18:52:27.278
+!MESSAGE StartupPlugin: could not remove workbench property change listener (1) ... workbench might already be shut down.
+!SESSION 2017-03-15 13:26:40.513 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/tedsmithiii/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/tedsmithiii/.eclipse_keyring
+
+!ENTRY com.instantiations.eclipse 1 0 2017-03-15 13:28:00.862
+!MESSAGE StartupPlugin: could not add workbench property change listener (1) ... compatibility layer might not be installed.
+
+!ENTRY com.instantiations.eclipse 1 0 2017-03-15 13:28:04.940
+!MESSAGE cannot support aboutToShutdown event - 2
+
+!ENTRY com.instantiations.common.core 2 0 2017-03-15 13:28:43.236
+!MESSAGE This version of CodePro Analytix and PlusPak was compiled for Eclipse 3.7 but is running on Eclipse 3.12.
+This version of CodePro AnalytiX was compiled for Eclipse 3.7 but is running on Eclipse 3.12.
+This version of EclipsePro Audit was compiled for Eclipse 3.7 but is running on Eclipse 3.12.
+This version of EclipsePro Test was compiled for Eclipse 3.7 but is running on Eclipse 3.12.
+This version of Code Coverage was compiled for Eclipse 3.7 but is running on Eclipse 3.12.
+This version of Shared was compiled for Eclipse 3.7 but is running on Eclipse 3.12.
+
+
+!ENTRY com.instantiations.eclipse 1 0 2017-03-15 15:22:15.514
+!MESSAGE StartupPlugin: could not remove workbench property change listener (1) ... workbench might already be shut down.
+!SESSION 2017-03-16 13:57:01.448 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/tedsmithiii/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/tedsmithiii/.eclipse_keyring
+
+!ENTRY com.instantiations.eclipse 1 0 2017-03-16 13:58:34.919
+!MESSAGE StartupPlugin: could not add workbench property change listener (1) ... compatibility layer might not be installed.
+
+!ENTRY com.instantiations.eclipse 1 0 2017-03-16 13:58:38.748
+!MESSAGE cannot support aboutToShutdown event - 2
+
+!ENTRY com.instantiations.common.core 2 0 2017-03-16 13:59:16.951
+!MESSAGE This version of CodePro Analytix and PlusPak was compiled for Eclipse 3.7 but is running on Eclipse 3.12.
+This version of CodePro AnalytiX was compiled for Eclipse 3.7 but is running on Eclipse 3.12.
+This version of EclipsePro Audit was compiled for Eclipse 3.7 but is running on Eclipse 3.12.
+This version of EclipsePro Test was compiled for Eclipse 3.7 but is running on Eclipse 3.12.
+This version of Code Coverage was compiled for Eclipse 3.7 but is running on Eclipse 3.12.
+This version of Shared was compiled for Eclipse 3.7 but is running on Eclipse 3.12.
+
