@@ -13,10 +13,10 @@ public class Inventory {
     private static int chocolate;
     
     public Inventory() {
-    	setCoffee(15);
-    	setMilk(15);
-    	setSugar(15);
-    	setChocolate(15);
+    	setCoffee(-1);
+    	setMilk(-1);
+    	setSugar(-1);
+    	setChocolate(-1);
     }
     
     /**
