@@ -31,10 +31,10 @@ public class Inventory {
      * @param chocolate int
      */
     public void setChocolate(int chocolate) {
-    	if(chocolate >= 0) {
+    	if(chocolate > 0) {
     		Inventory.chocolate = chocolate;
     	}
-    	else {
+    	else if (chocolate <= 0){
     		Inventory.chocolate = 0;
     	}
         
@@ -51,10 +51,10 @@ public class Inventory {
      * @param coffee int
      */
     public void setCoffee(int coffee) {
-    	if(coffee >= 0) {
+    	if(coffee > 0) {
     		Inventory.coffee = coffee;
     	}
-    	else {
+    	else if (coffee <= 0){
     		Inventory.coffee = 0;
     	}
     }
@@ -70,10 +70,10 @@ public class Inventory {
      * @param milk int
      */
     public void setMilk(int milk) {
-    	if(milk >= 0) {
+    	if(milk > 0) {
     		Inventory.milk = milk;
     	}
-    	else {
+    	else if (milk <= 0){
     		Inventory.milk = 0;
     	}
     }
@@ -89,10 +89,10 @@ public class Inventory {
      * @param sugar int
      */
     public void setSugar(int sugar) {
-    	if(sugar >= 0) {
+    	if(sugar > 0) {
     		Inventory.sugar = sugar;
     	}
-    	else {
+    	else if (sugar <= 0){
     		Inventory.sugar = 0;
     	}
     }

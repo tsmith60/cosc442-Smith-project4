@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CoffeeMakerTest" project="CoffeeMaker" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="edu.towson.cis.cosc442.project4.coffeemaker.CoffeeMakerTest" time="0.001">
+    <testcase name="testAddRecipe1" classname="edu.towson.cis.cosc442.project4.coffeemaker.CoffeeMakerTest" time="0.0"/>
+    <testcase name="testEditRecipe1" classname="edu.towson.cis.cosc442.project4.coffeemaker.CoffeeMakerTest" time="0.0"/>
+    <testcase name="testPurchaseBeverage1" classname="edu.towson.cis.cosc442.project4.coffeemaker.CoffeeMakerTest" time="0.0"/>
+    <testcase name="testDeleteRecipe1" classname="edu.towson.cis.cosc442.project4.coffeemaker.CoffeeMakerTest" time="0.0"/>
+    <testcase name="testCheckInventory1" classname="edu.towson.cis.cosc442.project4.coffeemaker.CoffeeMakerTest" time="0.0"/>
+    <testcase name="testAddInventory1" classname="edu.towson.cis.cosc442.project4.coffeemaker.CoffeeMakerTest" time="0.0"/>
+  </testsuite>
+</testrun>

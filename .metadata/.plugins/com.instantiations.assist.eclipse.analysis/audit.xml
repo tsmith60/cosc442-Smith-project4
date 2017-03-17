@@ -5,7 +5,7 @@
 			<null/>
 		</resourceFilter>
 	
-		#Wed Mar 15 15:22:14 EDT 2017
+		#Thu Mar 16 16:48:22 EDT 2017
 		com.instantiations.assist.eclipse.audit.useOfThreadInterrupted.enabled=true
 		com.instantiations.assist.eclipse.audit.noRunMethod.enabled=true
 		com.instantiations.assist.eclipse.audit.useStartRatherThanRun.enabled=true
@@ -69,7 +69,7 @@
 			<null/>
 		</resourceFilter>
 	
-		#Wed Mar 15 15:22:14 EDT 2017
+		#Thu Mar 16 16:48:22 EDT 2017
 		com.instantiations.assist.eclipse.audit.emptyEnhancedForStatement.enabled=true
 		com.instantiations.assist.eclipse.audit.returnInFinally.enabled=true
 		com.instantiations.assist.eclipse.audit.packageNamingConvention.enabled=true
@@ -221,11 +221,11 @@
 		com.instantiations.assist.eclipse.audit.defaultNotLastInSwitch.enabled=true
 		com.instantiations.assist.eclipse.audit.closeOrder.enabled=true
 		com.instantiations.assist.eclipse.audit.hidingInheritedFields.enabled=true
-		com.instantiations.assist.eclipse.audit.packagePrefixNamingConvention.enabled=true
-		com.instantiations.assist.eclipse.audit.duplicateImport.enabled=true
 		com.instantiations.assist.eclipse.audit.breakWithLabel.enabled=true
-		com.instantiations.assist.eclipse.audit.declaredExceptions.enabled=true
+		com.instantiations.assist.eclipse.audit.duplicateImport.enabled=true
+		com.instantiations.assist.eclipse.audit.packagePrefixNamingConvention.enabled=true
 		com.instantiations.assist.eclipse.audit.spellCheckStringLiterals.enabled=true
+		com.instantiations.assist.eclipse.audit.declaredExceptions.enabled=true
 		com.instantiations.assist.eclipse.audit.missingConstantsInSwitch.enabled=true
 		com.instantiations.assist.eclipse.audit.invokeInheritedMethod.enabled=true
 		com.instantiations.assist.eclipse.audit.platformSpecificLineSeparator.enabled=true
@@ -233,13 +233,13 @@
 		com.instantiations.assist.eclipse.audit.indexArraysWithInts.enabled=true
 		com.instantiations.assist.eclipse.audit.consistentSuffixUsage.enabled=true
 		com.instantiations.assist.eclipse.audit.obsoleteModifierUsage.enabled=true
-		com.instantiations.assist.eclipse.audit.largeNumberOfSwitchStatementCases.enabled=true
 		com.instantiations.assist.eclipse.audit.useArraycopyRatherThanALoop.enabled=true
+		com.instantiations.assist.eclipse.audit.largeNumberOfSwitchStatementCases.enabled=true
 		com.instantiations.assist.eclipse.audit.emptyDoStatement.enabled=true
 		com.instantiations.assist.eclipse.audit.variableDeclaredInLoop.enabled=true
 		com.instantiations.assist.eclipse.audit.invokeSuperTearDown.enabled=true
-		com.instantiations.assist.eclipse.audit.localDeclaration.enabled=true
 		com.instantiations.assist.eclipse.audit.overridingPrivateMethod.enabled=true
+		com.instantiations.assist.eclipse.audit.localDeclaration.enabled=true
 		com.instantiations.assist.eclipse.analysis.audit.rule.effectivejava.enforceTheSingletonPropertyWithAPrivateConstructor.enabled=true
 		com.instantiations.assist.eclipse.audit.unnecessaryExceptions.enabled=true
 		com.instantiations.assist.eclipse.audit.assignmentInCondition.enabled=true
@@ -249,7 +249,7 @@
 			<null/>
 		</resourceFilter>
 	
-		#Wed Mar 15 15:22:14 EDT 2017
+		#Thu Mar 16 16:48:22 EDT 2017
 		com.instantiations.assist.eclipse.analysis.audit.rule.effectivejava.favorStaticMemberClassesOverNonStatic.enabled=true
 		com.instantiations.assist.eclipse.audit.packageNamingConvention.enabled=true
 		com.instantiations.assist.eclipse.analysis.audit.rule.effectivejava.avoidFinalizers.avoidFinalizers.comment=To quote from Effective Java\:\r\n\r\n"Finalizers are unpredictable, often dangerous, and generally unnecessary. Their use can cause erratic behavior, poor performance, and portability problems. Finalizers have a few valid uses, ... but as a rule of thumb, finalizers should be avoided."
@@ -341,7 +341,7 @@
 			<null/>
 		</resourceFilter>
 	
-		#Wed Mar 15 15:22:14 EDT 2017
+		#Thu Mar 16 16:48:22 EDT 2017
 		com.instantiations.assist.eclipse.audit.restrictedPackages.restrictedNames=.internal.
 		com.instantiations.assist.eclipse.audit.restrictedPackages.enabled=true
 	</auditRuleSet>
@@ -350,7 +350,7 @@
 			<null/>
 		</resourceFilter>
 	
-		#Wed Mar 15 15:22:14 EDT 2017
+		#Thu Mar 16 16:48:22 EDT 2017
 		com.instantiations.assist.eclipse.audit.methodChainLength.enabled=true
 		com.instantiations.assist.eclipse.audit.variableShouldBeFinal.enabled=true
 		com.instantiations.assist.eclipse.audit.overridingNonAbstractMethod.enabled=true
@@ -458,7 +458,7 @@
 			<null/>
 		</resourceFilter>
 	
-		#Wed Mar 15 15:22:14 EDT 2017
+		#Thu Mar 16 16:48:22 EDT 2017
 		com.instantiations.assist.eclipse.analysis.mutableConstantField.enabled=true
 		com.instantiations.assist.eclipse.audit.dynamicDependencyInIvy.enabled=true
 		com.instantiations.assist.eclipse.analysis.doNotImplementSerializable.enabled=true
@@ -570,7 +570,7 @@
 			<null/>
 		</resourceFilter>
 	
-		#Wed Mar 15 15:22:14 EDT 2017
+		#Thu Mar 16 16:48:22 EDT 2017
 		com.instantiations.assist.eclipse.audit.spellCheckComments.enabled=true
 		com.instantiations.assist.eclipse.audit.spellCheckXMLAttributeNames.enabled=true
 		com.instantiations.assist.eclipse.audit.spellCheckPropertyComments.enabled=true
@@ -588,7 +588,7 @@
 			<null/>
 		</resourceFilter>
 	
-		#Wed Mar 15 15:22:14 EDT 2017
+		#Thu Mar 16 16:48:22 EDT 2017
 		com.instantiations.assist.eclipse.audit.bracePosition.openingBraceType=false
 		com.instantiations.assist.eclipse.audit.interfaceNamingConvention.namingConvention=;1;7;
 		com.instantiations.assist.eclipse.audit.missingBlock.enabled=true
